@@ -1,8 +1,13 @@
 ## Getting Started
 
+Up next there are the following instructions to running the Nuxt App on both Front-End and Back-End. Both links are listed at the end of this document.
+
 Requirements:
 - [NODE] - v14 +
 
+Download the following repositories:
+1.- project-nuxt
+2.- project-nuxt-back
 
 First, Install dependencies in every project:
 
@@ -13,13 +18,13 @@ First, Install dependencies in every project:
 Then, run the development server:
 
 ```bash
-# On Backend Project
-. .env && npx gulp
-source .env && npx gulp
-# On FrontEnd Project
+# On BackEnd Project (project-nuxt-back)
+
 npm start
+# On FrontEnd Project (project-nuxt)
+npm run dev
 ```
 
-Reposiroty Urls
-- [BACK] - Click me(https://github.com/EdgarSalasV/testCommitHistoryBack)
-- [FRONT] - Click me(https://github.com/EdgarSalasV/testCommitHistoryFront2)
+Repository Urls
+- [BACK] - Click me(https://github.com/ArturoMarmolejo/project-nuxt)
+- [FRONT] - Click me(https://github.com/ArturoMarmolejo/project-nuxt-back)
